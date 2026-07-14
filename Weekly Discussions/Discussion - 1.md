@@ -1,7 +1,6 @@
 # First Discussion Summary
 
 **Course:** DATA 6550 - Exploring Data Bias  
-**Week:** Week 3  
 **Participants:**
 - Tirth Laheri
 - Jay Beladiya
