@@ -1,33 +1,55 @@
-Summary
+# First Discussion Summary
 
-Tirth and Jay met to discuss potential datasets that could be used for the group project on data bias. The main objective of the meeting was to identify a publicly available dataset with documented biases that would allow meaningful analysis while remaining manageable within the project timeline.
+**Course:** DATA 6550 - Exploring Data Bias  
+**Week:** Week 3  
+**Participants:**
+- Tirth Laheri
+- Jay Beladiya
 
-Jay suggested exploring a dataset related to GloVe word embeddings because it is well known for exhibiting gender and semantic biases in natural language processing. The team discussed how this dataset has been used in many research papers to demonstrate stereotypes learned by machine learning models. However, both members agreed that analyzing word embeddings would require additional background in NLP and vector mathematics, which could increase the complexity of the project.
+## Meeting Objective
 
-Tirth proposed using the Adult Census Income Dataset from the UCI Machine Learning Repository. This dataset contains demographic information such as age, education, occupation, race, sex, and income level. Tirth explained that the dataset has been widely used in fairness and bias research and provides multiple opportunities to analyze representation bias, gender bias, and racial disparities using straightforward statistical methods and visualizations.
+The objective of this meeting was to discuss possible datasets for the Data Bias project and identify one that meets the project requirements while allowing meaningful bias analysis.
 
-The group compared both options and discussed the following points:
+## Discussion Summary
 
-* The GloVe dataset provides an interesting example of algorithmic bias but requires more advanced NLP techniques.
-* The Adult Census Income dataset is easier to clean, visualize, and analyze using Python libraries such as Pandas and Matplotlib.
-* The Adult dataset has extensive published literature documenting known biases, making it easier to support findings with academic references.
-* Both datasets satisfy the project requirements, but the Adult dataset appears more practical for completing the analysis within the available time.
+The meeting began with brainstorming potential datasets that have documented biases and are publicly available.
 
-Decisions Made
+Jay suggested exploring the **GloVe Word Embedding Dataset**, explaining that it is well known for demonstrating gender and semantic bias in Natural Language Processing (NLP). The team discussed how GloVe has been referenced in several research papers that examine stereotypes learned by machine learning models.
 
-* Both members agreed to research the Adult Census Income Dataset further before making the final decision.
-* Jay will review published articles discussing documented biases in the Adult dataset.
-* Tirth will download the dataset and explore its variables, structure, and potential visualizations.
-* The final dataset selection will be confirmed during the next meeting after reviewing the available literature and initial exploration.
+Tirth proposed using the **Adult Census Income Dataset** from the UCI Machine Learning Repository. He pointed out that the dataset contains demographic attributes such as age, education, occupation, race, sex, and income, making it suitable for studying representation bias, gender bias, and racial bias.
 
-Challenges Identified
+Both datasets were compared based on project requirements.
 
-* Uncertainty about whether the Adult dataset contains enough bias for a comprehensive analysis.
-* Concern that the GloVe dataset might require advanced NLP methods beyond the scope of the course.
-* Need to verify that the chosen dataset aligns well with the project requirements and allows each team member to contribute meaningful analysis.
+### Points Discussed
 
-Next Steps
+- The GloVe dataset is an excellent example of bias in AI and language models.
+- The Adult Census Income Dataset provides structured tabular data that is easier to analyze using Python.
+- The Adult dataset has extensive documentation and published research discussing known biases.
+- The GloVe dataset would require additional NLP knowledge and preprocessing, making it more complex.
 
-* Review research papers discussing bias in both datasets.
-* Perform an initial exploratory analysis of the Adult Census Income Dataset.
-* Meet again to make the final dataset selection and divide project responsibilities.
+## Decisions Made
+
+- Continue researching both datasets before making the final selection.
+- Jay will review literature related to documented bias in both datasets.
+- Tirth will download the Adult Census Income Dataset and perform an initial exploratory analysis.
+- Schedule another meeting to finalize the dataset choice.
+
+## Challenges Identified
+
+- Uncertainty about whether the Adult Census Income Dataset would provide enough opportunities for meaningful bias analysis.
+- Concern that the GloVe dataset might require advanced NLP techniques beyond the scope of the course.
+- Need to ensure the selected dataset satisfies all project requirements.
+
+## Action Items
+
+### Tirth Laheri
+- Download and inspect the Adult Census Income Dataset.
+- Explore variables and identify potential visualizations.
+
+### Jay Beladiya
+- Review research papers discussing known biases in the Adult Census Income Dataset and the GloVe dataset.
+- Compare the complexity of both datasets.
+
+## Next Meeting
+
+The team agreed to meet again after completing their individual research to make the final dataset selection and begin planning the project workflow.
