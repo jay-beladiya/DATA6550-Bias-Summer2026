@@ -47,19 +47,22 @@ The dataset contains demographic, educational, and employment information collec
 ## Repository Structure
 
 ```text
-├── Data/
-│   └── adult.data
+DATA6550-Bias-Summer2026
 │
-├── Notebooks/
-│   ├── Tirth_Laheri_Bias_Analysis.ipynb
-│   └── Jay_Beladiya_Bias_Analysis.ipynb
+├── Analysis
+│   ├── Tirth_Laheri_Analysis.ipynb
+│   └── Jay_Beladiya_Analysis.ipynb
 │
-├── Discussion_Summaries/
-│   ├── WeekA.md
-│   └── WeekB.md
+├── Weekly Discussions
+│   ├── Discussion - 1.md
+│   └── Discussion - 2.md
 │
-├── Report/
-│   └── Final_Report.docx
+├── data
+│   ├── adult.data
+│   ├── adult.test
+│   ├── adult.names
+│   ├── old.adult.names
+│   └── Index
 │
 └── README.md
 ```
