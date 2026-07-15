@@ -58,7 +58,7 @@ DATA6550-Bias-Summer2026
 │   └── Discussion - 2.md
 │
 ├── Report/
-│   └── Final_Report.docx
+│   └── Final_Report.pdf
 │
 ├── data
 │   ├── adult.data
